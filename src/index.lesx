@@ -6,9 +6,7 @@
 
 <template>
 	<div>
-		<a onClick={() => {
-			alert(1);
-		}}>点我</a>
+		<a onClick={this.func}>点我</a>
 
 		{console.log(this.props)}
 
@@ -19,6 +17,8 @@
 		<Button type="primary" onClick={() => {
 			alert('I am a button!');
 		}}>antd button</Button>
+
+		<My />
 	</div>
 </template>
 
@@ -31,5 +31,15 @@
 		state: {
 			name: 'xiangzhong.wxz'
 		},
+
+		func({
+			setState,
+		}) {
+			alert('I am a function!');
+
+			setState({
+				name: 'new name'
+			});
+		}
 	};
 </script>
