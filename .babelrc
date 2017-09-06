@@ -1,0 +1,22 @@
+{
+	"presets": [
+		"flow",
+		"es2015",
+		"stage-0"
+	],
+	"plugins": [
+		"add-module-exports",
+		"transform-runtime",
+		"syntax-decorators", [
+			"import", {
+				"libraryName": "antd",
+				"style": true,
+			}
+		]
+	],
+	"env": {
+		"test": {
+			"plugins": ["istanbul"]
+		}
+	}
+}

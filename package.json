@@ -1,0 +1,61 @@
+{
+  "name": "lesx-example",
+  "version": "0.0.1",
+  "description": "lesx DSL example",
+  "main": "./index.js",
+  "scripts": {
+    "start": "dora --plugins \"proxy,webpack?disableNpmInstall,webpack-hmr\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lesx/lesx-example.git"
+  },
+  "keywords": [
+    "lesx",
+    "dsl",
+    "jsx"
+  ],
+  "author": "xiangzhong.wxz",
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^2.13.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-mixin": "^3.1.0"
+  },
+  "devDependencies": {
+    "atool-build": "^0.9.3",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "7.0.0-alpha.18",
+    "babel-eslint": "8.0.0-alpha.13",
+    "babel-helper-fixtures": "7.0.0-alpha.18",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-external-helpers": "7.0.0-alpha.18",
+    "babel-plugin-import": "^1.4.0",
+    "babel-plugin-istanbul": "^4.1.4",
+    "babel-plugin-syntax-decorators": "^6.13.0",
+    "babel-plugin-syntax-typescript": "^7.0.0-alpha.19",
+    "babel-plugin-transform-inline-imports-commonjs": "^1.2.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "2.0.0-alpha.18",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "7.0.0-alpha.18",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^0.25.0",
+    "dora": "0.x",
+    "dora-plugin-proxy": "^0.x",
+    "dora-plugin-webpack": "0.x",
+    "dora-plugin-webpack-hmr": "^0.x",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "less-loader": "^2.2.3",
+    "lesx-loader": "^0.0.x",
+    "node-sass": "^4.0.0",
+    "react-addons-transition-group": "^15.4.1",
+    "rimraf": "^2.5.4",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1"
+  }
+}
