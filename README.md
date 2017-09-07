@@ -1,6 +1,6 @@
 # lesx-example
 
-lesx dsl webpack loader example.
+Lesx dsl webpack loader example.
 
 ## What
 
