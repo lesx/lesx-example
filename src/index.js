@@ -3,6 +3,8 @@ import { render } from 'react-dom';
 import My from './My';
 import App from './index.lesx';
 
+// import 'antd/dist/antd.css';
+
 console.log('App:', App);
 
 render(<App

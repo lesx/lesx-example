@@ -15,7 +15,7 @@
 		</If>
 
 		<Button type="primary" onClick={() => {
-			alert('I am a button!');
+			alert('I am an antd button!');
 		}}>antd button</Button>
 
 		<My />
