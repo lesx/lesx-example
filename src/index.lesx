@@ -16,6 +16,9 @@
 
 		<Button type="primary" onClick={() => {
 			alert('I am an antd button!');
+			$setState({
+                name: 'new name'
+            });
 		}}>antd button</Button>
 
 		<My />
