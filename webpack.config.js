@@ -14,15 +14,6 @@ module.exports = function(webpackConfig) {
 	webpackConfig.output.chunkFilename = '[id].chunk.js';
 
 	webpackConfig.module.loaders.push({
-		test: /\.css$/,
-		loader: ExtractTextPlugin.extract("style-loader", "css-loader")
-	}, {
-		test: /\.scss$/,
-		loader: ExtractTextPlugin.extract("css!sass")
-	}, {
-		test: /\.less$/,
-		loader: ExtractTextPlugin.extract("css!less")
-	}, {
 		test: /\.lesx$/,
 		loader: 'lesx-loader',
 		query: {
