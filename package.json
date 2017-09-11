@@ -51,7 +51,7 @@
     "dora-plugin-webpack-hmr": "^0.x",
     "extract-text-webpack-plugin": "^1.0.1",
     "less-loader": "^2.2.3",
-    "lesx-loader": "^0.0.x",
+    "lesx-loader": "^x",
     "node-sass": "^4.0.0",
     "react-addons-transition-group": "^15.4.1",
     "rimraf": "^2.5.4",
